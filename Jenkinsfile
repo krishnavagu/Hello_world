@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                git credentialsId: 'krishna', url: 'https://github.com/krishnavagu/Hello_world.git'
+                git credentialsId: 'krishna', url: 'https://github.com/krishnavagu/_world.git'
             }
         }
         stage('maven project') { 
